@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9257CA761F1A3B6C00FB1823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9257CA751F1A3B6C00FB1823 /* AppDelegate.swift */; };
+		9257CA781F1A3B6C00FB1823 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9257CA771F1A3B6C00FB1823 /* ViewController.swift */; };
+		9257CA7A1F1A3B6D00FB1823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9257CA791F1A3B6D00FB1823 /* Assets.xcassets */; };
+		9257CA7D1F1A3B6D00FB1823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9257CA7B1F1A3B6D00FB1823 /* Main.storyboard */; };
+		9257CA881F1A3B6D00FB1823 /* CorixMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9257CA871F1A3B6D00FB1823 /* CorixMacTests.swift */; };
+		9257CA931F1A3B6D00FB1823 /* CorixMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9257CA921F1A3B6D00FB1823 /* CorixMacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9257CA841F1A3B6D00FB1823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9257CA6A1F1A3B6C00FB1823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9257CA711F1A3B6C00FB1823;
+			remoteInfo = CorixMac;
+		};
+		9257CA8F1F1A3B6D00FB1823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9257CA6A1F1A3B6C00FB1823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9257CA711F1A3B6C00FB1823;
+			remoteInfo = CorixMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9257CA721F1A3B6C00FB1823 /* CorixMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorixMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9257CA751F1A3B6C00FB1823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9257CA771F1A3B6C00FB1823 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9257CA791F1A3B6D00FB1823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9257CA7C1F1A3B6D00FB1823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9257CA7E1F1A3B6D00FB1823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9257CA831F1A3B6D00FB1823 /* CorixMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorixMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9257CA871F1A3B6D00FB1823 /* CorixMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorixMacTests.swift; sourceTree = "<group>"; };
+		9257CA891F1A3B6D00FB1823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9257CA8E1F1A3B6D00FB1823 /* CorixMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorixMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9257CA921F1A3B6D00FB1823 /* CorixMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorixMacUITests.swift; sourceTree = "<group>"; };
+		9257CA941F1A3B6D00FB1823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9257CA6F1F1A3B6C00FB1823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9257CA801F1A3B6D00FB1823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9257CA8B1F1A3B6D00FB1823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9257CA691F1A3B6C00FB1823 = {
+			isa = PBXGroup;
+			children = (
+				9257CA741F1A3B6C00FB1823 /* CorixMac */,
+				9257CA861F1A3B6D00FB1823 /* CorixMacTests */,
+				9257CA911F1A3B6D00FB1823 /* CorixMacUITests */,
+				9257CA731F1A3B6C00FB1823 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9257CA731F1A3B6C00FB1823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9257CA721F1A3B6C00FB1823 /* CorixMac.app */,
+				9257CA831F1A3B6D00FB1823 /* CorixMacTests.xctest */,
+				9257CA8E1F1A3B6D00FB1823 /* CorixMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9257CA741F1A3B6C00FB1823 /* CorixMac */ = {
+			isa = PBXGroup;
+			children = (
+				9257CA751F1A3B6C00FB1823 /* AppDelegate.swift */,
+				9257CA771F1A3B6C00FB1823 /* ViewController.swift */,
+				9257CA791F1A3B6D00FB1823 /* Assets.xcassets */,
+				9257CA7B1F1A3B6D00FB1823 /* Main.storyboard */,
+				9257CA7E1F1A3B6D00FB1823 /* Info.plist */,
+			);
+			path = CorixMac;
+			sourceTree = "<group>";
+		};
+		9257CA861F1A3B6D00FB1823 /* CorixMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				9257CA871F1A3B6D00FB1823 /* CorixMacTests.swift */,
+				9257CA891F1A3B6D00FB1823 /* Info.plist */,
+			);
+			path = CorixMacTests;
+			sourceTree = "<group>";
+		};
+		9257CA911F1A3B6D00FB1823 /* CorixMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9257CA921F1A3B6D00FB1823 /* CorixMacUITests.swift */,
+				9257CA941F1A3B6D00FB1823 /* Info.plist */,
+			);
+			path = CorixMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9257CA711F1A3B6C00FB1823 /* CorixMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9257CA971F1A3B6D00FB1823 /* Build configuration list for PBXNativeTarget "CorixMac" */;
+			buildPhases = (
+				9257CA6E1F1A3B6C00FB1823 /* Sources */,
+				9257CA6F1F1A3B6C00FB1823 /* Frameworks */,
+				9257CA701F1A3B6C00FB1823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CorixMac;
+			productName = CorixMac;
+			productReference = 9257CA721F1A3B6C00FB1823 /* CorixMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9257CA821F1A3B6D00FB1823 /* CorixMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9257CA9A1F1A3B6D00FB1823 /* Build configuration list for PBXNativeTarget "CorixMacTests" */;
+			buildPhases = (
+				9257CA7F1F1A3B6D00FB1823 /* Sources */,
+				9257CA801F1A3B6D00FB1823 /* Frameworks */,
+				9257CA811F1A3B6D00FB1823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9257CA851F1A3B6D00FB1823 /* PBXTargetDependency */,
+			);
+			name = CorixMacTests;
+			productName = CorixMacTests;
+			productReference = 9257CA831F1A3B6D00FB1823 /* CorixMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9257CA8D1F1A3B6D00FB1823 /* CorixMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9257CA9D1F1A3B6D00FB1823 /* Build configuration list for PBXNativeTarget "CorixMacUITests" */;
+			buildPhases = (
+				9257CA8A1F1A3B6D00FB1823 /* Sources */,
+				9257CA8B1F1A3B6D00FB1823 /* Frameworks */,
+				9257CA8C1F1A3B6D00FB1823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9257CA901F1A3B6D00FB1823 /* PBXTargetDependency */,
+			);
+			name = CorixMacUITests;
+			productName = CorixMacUITests;
+			productReference = 9257CA8E1F1A3B6D00FB1823 /* CorixMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9257CA6A1F1A3B6C00FB1823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ignis IT ";
+				TargetAttributes = {
+					9257CA711F1A3B6C00FB1823 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9257CA821F1A3B6D00FB1823 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9257CA711F1A3B6C00FB1823;
+					};
+					9257CA8D1F1A3B6D00FB1823 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9257CA711F1A3B6C00FB1823;
+					};
+				};
+			};
+			buildConfigurationList = 9257CA6D1F1A3B6C00FB1823 /* Build configuration list for PBXProject "CorixMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9257CA691F1A3B6C00FB1823;
+			productRefGroup = 9257CA731F1A3B6C00FB1823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9257CA711F1A3B6C00FB1823 /* CorixMac */,
+				9257CA821F1A3B6D00FB1823 /* CorixMacTests */,
+				9257CA8D1F1A3B6D00FB1823 /* CorixMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9257CA701F1A3B6C00FB1823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9257CA7A1F1A3B6D00FB1823 /* Assets.xcassets in Resources */,
+				9257CA7D1F1A3B6D00FB1823 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9257CA811F1A3B6D00FB1823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9257CA8C1F1A3B6D00FB1823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9257CA6E1F1A3B6C00FB1823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9257CA781F1A3B6C00FB1823 /* ViewController.swift in Sources */,
+				9257CA761F1A3B6C00FB1823 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9257CA7F1F1A3B6D00FB1823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9257CA881F1A3B6D00FB1823 /* CorixMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9257CA8A1F1A3B6D00FB1823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9257CA931F1A3B6D00FB1823 /* CorixMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9257CA851F1A3B6D00FB1823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9257CA711F1A3B6C00FB1823 /* CorixMac */;
+			targetProxy = 9257CA841F1A3B6D00FB1823 /* PBXContainerItemProxy */;
+		};
+		9257CA901F1A3B6D00FB1823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9257CA711F1A3B6C00FB1823 /* CorixMac */;
+			targetProxy = 9257CA8F1F1A3B6D00FB1823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9257CA7B1F1A3B6D00FB1823 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9257CA7C1F1A3B6D00FB1823 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9257CA951F1A3B6D00FB1823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9257CA961F1A3B6D00FB1823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		9257CA981F1A3B6D00FB1823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CorixMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.corixMacDemo.CorixMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9257CA991F1A3B6D00FB1823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CorixMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.corixMacDemo.CorixMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9257CA9B1F1A3B6D00FB1823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CorixMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.corixMacDemo.CorixMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CorixMac.app/Contents/MacOS/CorixMac";
+			};
+			name = Debug;
+		};
+		9257CA9C1F1A3B6D00FB1823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CorixMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.corixMacDemo.CorixMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CorixMac.app/Contents/MacOS/CorixMac";
+			};
+			name = Release;
+		};
+		9257CA9E1F1A3B6D00FB1823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CorixMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.corixMacDemo.CorixMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CorixMac;
+			};
+			name = Debug;
+		};
+		9257CA9F1F1A3B6D00FB1823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CorixMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.corixMacDemo.CorixMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CorixMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9257CA6D1F1A3B6C00FB1823 /* Build configuration list for PBXProject "CorixMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9257CA951F1A3B6D00FB1823 /* Debug */,
+				9257CA961F1A3B6D00FB1823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9257CA971F1A3B6D00FB1823 /* Build configuration list for PBXNativeTarget "CorixMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9257CA981F1A3B6D00FB1823 /* Debug */,
+				9257CA991F1A3B6D00FB1823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9257CA9A1F1A3B6D00FB1823 /* Build configuration list for PBXNativeTarget "CorixMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9257CA9B1F1A3B6D00FB1823 /* Debug */,
+				9257CA9C1F1A3B6D00FB1823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9257CA9D1F1A3B6D00FB1823 /* Build configuration list for PBXNativeTarget "CorixMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9257CA9E1F1A3B6D00FB1823 /* Debug */,
+				9257CA9F1F1A3B6D00FB1823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9257CA6A1F1A3B6C00FB1823 /* Project object */;
+}
